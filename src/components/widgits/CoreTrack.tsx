@@ -16,11 +16,11 @@ export const CoreTrack = () => {
             <h1 className="text-gray-800 font-bold md:text-5xl text-4xl max-w-screen-sm mt-4">
               Certified Web 3.0 and Metaverse Developer
             </h1>
-            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-lg">
+            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-xl">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
             </p>
-            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-lg">
+            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-xl">
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
