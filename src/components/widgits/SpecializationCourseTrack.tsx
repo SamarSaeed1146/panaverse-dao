@@ -9,7 +9,6 @@ import GenomicsImg from "@/app/assits/genomics.webp";
 import NetworkImg from "@/app/assits/network.webp";
 import { useState } from "react";
 import Quarter from "@/components/shared/Quarter";
-import { it } from "node:test";
 import Image from "next/image";
 
 const CourseTrack = [
