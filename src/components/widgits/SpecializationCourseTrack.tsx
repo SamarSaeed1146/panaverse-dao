@@ -147,13 +147,13 @@ const SpecializationCourseTrack = () => {
             <h3 className="text-teal-700 font-bold text-xl">
               Specialized Track
             </h3>
-            <h1 className="text-gray-800 font-bold md:text-4xl text-3xl mt-6">
+            <h1 className="text-gray-800 font-bold xl:text-4xl md:text-3xl text-2xl mt-6">
               {selectedItemData?.header}
             </h1>
-            <p className="mt-8 text-gray-500 font-medium text-xl">
+            <p className="mt-8 text-gray-500 font-medium text-base md:text-xl">
               {selectedItemData?.description}
             </p>
-            <button className="mt-6 border border-teal-800 underline text-teal-800 px-3 py-3 text-2xl font-medium rounded-md hover:shadow-xl">
+            <button className="mt-6 border border-teal-800 underline text-teal-800 md:px-2 px-4 md:py-3 py-2 text-xl font-medium rounded-md hover:shadow-xl">
               Learn More <span>➡️</span>
             </button>
             <div className="flex flex-col md:flex-row gap-4 mt-8 border-none">

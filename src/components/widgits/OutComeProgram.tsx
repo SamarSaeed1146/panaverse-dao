@@ -18,10 +18,10 @@ const OutComeProgram = () => {
             <Image src={outComeImg} width={600} alt="Program Icon" />
           </div>
           <div className="flex-1 mt-8">
-            <h1 className="text-gray-800 font-bold md:text-[38px] text-4xl mt-4">
+            <h1 className="text-gray-800 font-bold lg:text-[44px] md:text-[38px] text-[30px] mt-4">
               The Outcome for Participants of the Program
             </h1>
-            <p className="mt-5 text-gray-500 font-medium text-xl">
+            <p className="mt-5 text-gray-500 font-medium text-base md:text-xl">
               As a graduate of this program, you will own valuable products such
               as Full-Stack App Templates, AR and VR Experiences, and APIs that
               are marketed globally by the Panaverse DAO. You will also have the
