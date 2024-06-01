@@ -141,7 +141,7 @@ const SpecializationCourseTrack = () => {
     (items) => items.slug === selectItem
   );
   return (
-    <section className="mt-20">
+    <section className="mt-3 md:mt-12">
       <Wrapper>
         <div className="mt-10 flex flex-col-reverse lg:flex-row gap-x-6 gap-y-8">
           <div className="basis-8/12 shadow-xl sticky top-28 self-start rounded-xl border border-slate-200 py-8 px-6">
@@ -154,7 +154,7 @@ const SpecializationCourseTrack = () => {
             <p className="mt-8 text-gray-500 font-medium text-xl">
               {selectedItemData?.description}
             </p>
-            <button className="mt-6 border border-teal-800 underline text-teal-800 px-8 py-3 text-2xl font-medium rounded-md hover:shadow-xl">
+            <button className="mt-6 border border-teal-800 underline text-teal-800 px-3 py-3 text-2xl font-medium rounded-md hover:shadow-xl">
               Learn More <span>➡️</span>
             </button>
             <div className="flex flex-col md:flex-row gap-4 mt-8 border-none">
