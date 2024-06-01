@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import CoreCourses from "@/components/widgits/CoreCourses";
 import CoreSpecializations from "@/components/widgits/CoreSpecializations";
@@ -17,6 +18,7 @@ export default function Home() {
       <SpecializationTrack />
       <SpecializationCourseTrack />
       <OutComeProgram />
+      <Footer />
     </main>
   );
 }
