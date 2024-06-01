@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 bg-white opacity-95">
       <Wrapper>
-        <div className="flex justify-between mt-2">
+        <div className="flex justify-between mt-6">
           <div className="">
             <Image src="/logo.webp" width={90} height={400} alt="Panaverse Logo" />
           </div>

@@ -13,14 +13,14 @@ export const CoreTrack = () => {
               Presidential Initiative for Artificial Intelligence and Computing
               (PIAIC)
             </h3>
-            <h1 className="text-gray-800 font-bold md:text-5xl text-4xl max-w-screen-sm mt-4">
+            <h1 className="text-gray-800 font-bold xl:text-5xl md:text-4xl text-3xl max-w-screen-sm mt-4">
               Certified Web 3.0 and Metaverse Developer
             </h1>
-            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-xl">
+            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-base md:text-xl">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
             </p>
-            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-xl">
+            <p className="mt-5 max-w-screen-sm text-gray-500 font-medium text-base md:text-xl">
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
@@ -29,7 +29,7 @@ export const CoreTrack = () => {
               <Button text={"Learn More"} />
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 mt-8 md:mt-0">
             <Image src={assit} alt="Hero image" />
           </div>
         </div>
