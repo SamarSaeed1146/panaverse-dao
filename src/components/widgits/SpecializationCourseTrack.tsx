@@ -10,6 +10,7 @@ import NetworkImg from "@/app/assits/network.webp";
 import { useState } from "react";
 import Quarter from "@/components/shared/Quarter";
 import { it } from "node:test";
+import Image from "next/image";
 
 const CourseTrack = [
   {
@@ -142,33 +143,46 @@ const SpecializationCourseTrack = () => {
   return (
     <section className="mt-20">
       <Wrapper>
-        <div className="mt-10 flex flex-col lg:flex-row gap-x-6 gap-y-8">
+        <div className="mt-10 flex flex-col-reverse lg:flex-row gap-x-6 gap-y-8">
           <div className="basis-8/12 shadow-xl sticky top-28 self-start rounded-xl border border-slate-200 py-8 px-6">
             <h3 className="text-teal-700 font-bold text-xl">
               Specialized Track
             </h3>
-            <h1 className="text-gray-800 font-bold md:text-4xl text-3xl max-w-screen-sm mt-6">
+            <h1 className="text-gray-800 font-bold md:text-4xl text-3xl mt-6">
               {selectedItemData?.header}
             </h1>
-            <p className="mt-8 max-w-screen-md text-gray-500 font-medium text-xl">
+            <p className="mt-8 text-gray-500 font-medium text-xl">
               {selectedItemData?.description}
             </p>
             <button className="mt-6 border border-teal-800 underline text-teal-800 px-8 py-3 text-2xl font-medium rounded-md hover:shadow-xl">
               Learn More <span>➡️</span>
             </button>
-            <div className="mt-8 flex flex-col md:flex-row gap-y-8 gap-x-8">
-              {
-                selectedItemData?.quarter.map ((items) => (
-                  <Quarter 
+            <div className="flex flex-col md:flex-row gap-4 mt-8 border-none">
+              {selectedItemData?.quarter.map((items) => (
+                <Quarter
                   key={items.number}
                   header={items.headers}
                   description={items.description}
                   number={items.number}
-                  haveBorder={false} 
-                  />
-                ))
-              }
+                  haveBorder={false}
+                />
+              ))}
             </div>
+          </div>
+          <div className="px-4 space-y-4 md:space-y-6 py-6 basis-4/12 flex-1">
+            {CourseTrack.map((items, i) => (
+              <div onClick={() => setSelectItem (items.slug)}
+              key={items.slug}
+              className="flex items-center cursor-pointer gap-x-6">
+                <div className="flex-shrink-0 h-36 w-36">
+                  <Image src={items.image} alt={items.header} className={"h-36 object-cover rounded-md"}/>
+                </div>
+                <div>
+                <h4 className="text-teal-700 font-medium">Specialized Track</h4>
+                <h3 className="text-lg font-semibold">{items.header}</h3>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </Wrapper>
