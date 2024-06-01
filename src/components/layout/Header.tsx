@@ -9,7 +9,7 @@ const Header = () => {
       <Wrapper>
         <div className="flex justify-between mt-2">
           <div className="">
-            <img src="logo.webp" width={90} height={400} alt="Panaverse Logo" />
+            <Image src="/logo.webp" width={90} height={400} alt="Panaverse Logo" />
           </div>
           <div className="">
             <ul className="flex gap-x-6 font-semibold mt-5">

@@ -1,6 +1,6 @@
 import Wrapper from "@/components/shared/Wrapper";
-import Image from "next/image";
 import outComeImg from "@/app/assits/outcome-poster.webp";
+import Image from "next/image";
 
 const outComePoints = [
   "Product Ownership",
@@ -31,7 +31,7 @@ const OutComeProgram = () => {
             </p>
             <div className="grid grid-cols-2 mt-8 gap-y-8 gap-x-12">
               {outComePoints.map((items, i) => (
-                <div className="flex items-center gap-y-6 gap-x-2">
+                <div key={i} className="flex items-center gap-y-6 gap-x-2">
                   <svg
                     className="flex-shrink-0 flex-none h-8 w-8 xs:h-10 xs:w-10"
                     width="46"
