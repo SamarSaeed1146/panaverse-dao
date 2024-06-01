@@ -9,7 +9,7 @@ export const CoreTrack = () => {
       <Wrapper>
         <div className="flex flex-col md:flex-row items-center">
           <div className="flex-1 md:mt-12">
-            <h3 className="text-teal-700 font-bold max-w-screen-sm">
+            <h3 className="text-teal-700 font-bold max-w-screen-sm text-xl">
               Presidential Initiative for Artificial Intelligence and Computing
               (PIAIC)
             </h3>
